@@ -1,0 +1,165 @@
+body {
+    font-weight: 50;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 2rem;
+    color: #fff;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* ****************************************************************TITLE*************************************************************** */
+
+.navbar {
+    padding-bottom: 40px;
+}
+
+#title {
+    background-color: #ff4c68;
+    padding-bottom: 100px;
+}
+
+#title img {
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 30%;
+}
+
+.title-img {
+    margin-top: 30px;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+
+.btn-2 {
+    margin-left: 10px;
+}
+
+.btn-2, .btn-1 {
+    margin-top: 60px;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/************************************************************ FEATURES ******************************************************************/
+
+#features {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.icon {
+    margin-bottom: 30px;
+    color: #ef8172;
+}
+
+.icon :hover {
+    color: #ff4c68;
+}
+
+/*********************************************************** TESTIMONIALS************************************************************ */
+
+#testimonials {
+    text-align: center;
+    background-color: #ff4c68;
+}
+
+#testimonials img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 30px 10px;
+}
+
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.logos {
+    width: 15%;
+    margin: 20px 20px 0 15px;
+    padding-bottom: 3%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* PRICING */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+#pricing h2 {
+    color: black;
+}
+
+.pricing-col {
+    padding-top: 40px;
+}
+
+.btn-same {
+    margin-top: 56px;
+}
+
+/* *********************************************************CALL TO ACTION***********************************************************************/
+
+#cta {
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    font-family: "Montserrat";
+    font-weight: 900;
+    text-align: center;
+    color: #fff;
+}
+
+/* ***********************************************************FOOTER************************************************************************* */
+
+#footer {
+    background-color: #ffF;
+    text-align: center;
+}
+
+.icon-foot {
+    margin: 15px 5px;
+}
+
+@media(max-width:1028px) {
+    #title img {
+        position: static;
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
+}
